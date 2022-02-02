@@ -1,0 +1,63 @@
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid rgb(155, 151, 151);
+}
+
+.nav-items {
+  padding: 0.5em;
+  margin: 5px;
+  flex: 300px;
+}
+.nav-items:nth-of-type(2) {
+  padding: 0.5em;
+  margin: 5px;
+  flex: 900;
+}
+.nav-items ul {
+  display: flex;
+  list-style: none;
+}
+.nav-items ul li {
+  margin-inline: 20px;
+  cursor: pointer;
+  letter-spacing: 1.5;
+  color: gray;
+}
+.nav-items ul li:hover {
+  color: black;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+article {
+  padding: 0.5em;
+  margin: 20px;
+  flex: 300px;
+}
+
+section article h1 {
+  border-bottom: 1px solid rgb(155, 151, 151);
+  letter-spacing: 1.5;
+  padding-bottom: 10px;
+}
+
+section article ul {
+  list-style: none;
+  margin-left: -40px;
+}
+section article ul li {
+  margin-block: 10px;
+  letter-spacing: 1.5;
+}
